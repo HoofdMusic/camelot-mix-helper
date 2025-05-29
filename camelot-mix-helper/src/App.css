@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #000;
+  color: white;
+}
+
+.app {
+  padding: 2rem;
+  text-align: center;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.key {
+  padding: 0.5rem 1rem;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.key.active {
+  background: white;
+  color: black;
+}
+
+.results {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 600px;
+  margin-inline: auto;
+}
